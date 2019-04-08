@@ -25,4 +25,4 @@
       ./bbr.sh    
    装上后可以敲入lsmod | grep bbr，显示bbr就行     
     
-2.6  下载使用SSR客户端，填写刚才的SSR的IP，密码；   
+2.6  下载使用[SSR客户端](https://github.com/Minghaovcc/SSR/blob/master/Client/ShadowsocksR-win-4.9.0.zip)，填写刚才的SSR的IP，密码；   
