@@ -1,4 +1,4 @@
-一键脚本安装shadowsocksR + bbr
+一键脚本安装ShadowsocksR + bbr
 ---
 1.1  首先购买一个国外的VPS，例如[谷歌云](https://cloud.google.com/)平台免费一年可以试试哦！   
 
