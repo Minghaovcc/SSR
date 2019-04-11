@@ -20,15 +20,9 @@
     
    开启BBR加速（因为debian9最新的是4.9以上内核，默认集成了BBR）；   
    
-      git clone https://github.com/Minghaovcc/SSR/bbr.sh   
-      chmod +x bbr.sh  
-      ./bbr.sh    
+      echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+      echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+      sysctl -p
    装上后可以敲入lsmod | grep bbr，显示bbr就行     
     
 2.6  下载使用[SSR客户端](https://github.com/Minghaovcc/SSR/blob/master/Client/ShadowsocksR-win-4.9.0.zip)，填写刚才的SSR的IP，密码；  
-
-
-  debian 9直接开启bbr
-    echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
-    echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
-    sysctl -p
