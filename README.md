@@ -13,13 +13,10 @@
 2.5  以debian9为例；   
 
       sudo -i进入root模式，敲入apt-get install git   
-      git clone https://github.com/Minghaovcc/SSR/shadowsocks-all.sh   
+      git clone https://github.com/Minghaovcc/SSR.git  
       chmod +x shadowsocks-all.sh   
       ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log   
-      秋水
-      wget –no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
-chmod +x shadowsocks-all.sh
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+
    输入你的想设置的ssr密码，选择端口号（例如6666），然后一路回车，选默认的就好，等待创建loading；   
     
    开启BBR加速（因为debian9最新的是4.9以上内核，默认集成了BBR）；   
