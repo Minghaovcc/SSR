@@ -15,7 +15,10 @@
       sudo -i进入root模式，敲入apt-get install git   
       git clone https://github.com/Minghaovcc/SSR.git  
       chmod +x shadowsocks-all.sh   
-      ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log   
+      ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+      
+      wget -N --no-check-certificate https://raw.githubusercontent.com/CecilWu/SSR-Chinese/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+      
 
    输入你的想设置的ssr密码，选择端口号（例如6666），然后一路回车，选默认的就好，等待创建loading；   
     
